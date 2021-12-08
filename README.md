@@ -2,6 +2,7 @@
 
 [![](https://img.shields.io/badge/language-ObjC-green)]()
 [![](https://img.shields.io/badge/release-V1.0.0-blue)](https://github.com/b593771943/SafeClsCluster/tree/release/1.0.0)
+[![](https://img.shields.io/badge/support%20cluster-NSArray%20%7C%20NSMutableArray%20%7C%20NSDictionary%20%7C%20NSMutableDictionary%20%7C%20NSString%20%7C%20NSMutableString%20%7C%20NSAttributedString%20%7C%20NSMutableAttributedString%20%7C%20NSSet%20%7C%20NSMutableSet-red)]()
 [![](https://img.shields.io/badge/platform-iOS%20%7C%20macOS-orange)]()
 [![](https://img.shields.io/badge/License-MIT-orange)]()
 [![](https://img.shields.io/badge/star-0-lightgrey)]()
