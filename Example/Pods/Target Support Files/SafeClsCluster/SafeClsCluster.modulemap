@@ -1,0 +1,6 @@
+framework module SafeClsCluster {
+  umbrella header "SafeClsCluster-umbrella.h"
+
+  export *
+  module * { export * }
+}

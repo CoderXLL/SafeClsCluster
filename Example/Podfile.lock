@@ -1,0 +1,16 @@
+PODS:
+  - SafeClsCluster (0.1.0)
+
+DEPENDENCIES:
+  - SafeClsCluster (from `../`)
+
+EXTERNAL SOURCES:
+  SafeClsCluster:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SafeClsCluster: 7cd400f3304251cb91f9fbe0ed8530d38a5032d4
+
+PODFILE CHECKSUM: 9bcd2c9401541c556fafb90a9efdac570bd6394a
+
+COCOAPODS: 1.11.2

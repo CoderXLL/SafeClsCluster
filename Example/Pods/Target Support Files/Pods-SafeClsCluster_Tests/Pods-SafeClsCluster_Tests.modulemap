@@ -1,0 +1,6 @@
+framework module Pods_SafeClsCluster_Tests {
+  umbrella header "Pods-SafeClsCluster_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

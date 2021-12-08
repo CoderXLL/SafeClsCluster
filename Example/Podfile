@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SafeClsCluster_Example' do
+  pod 'SafeClsCluster', :path => '../'
+
+  target 'SafeClsCluster_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
