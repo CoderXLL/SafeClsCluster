@@ -31,7 +31,7 @@ typedef NS_ENUM(NSInteger, ExceptionDebugDealWay) {
 ```
 ### 源码说明
 ##### SafeExceptionManager
-捕获的类簇Crash异常管理类
+捕获的类簇Crash异常管理协议
 ```
 @protocol SafeExceptionManager <NSObject>
 
@@ -50,7 +50,7 @@ typedef NS_ENUM(NSInteger, ExceptionDebugDealWay) {
 ```
 
 ##### SafeSwitchManager
-类簇安全保护开关管理类
+类簇安全保护开关管理协议
 ```
 @protocol SafeSwitchManager <NSObject>
 
