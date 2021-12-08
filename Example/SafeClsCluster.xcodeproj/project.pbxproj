@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29B01707DD938DEBC96FBEE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		51118F43B2F0E5FF12CBA244 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		52BBFA3D6AF1DC700328CE81 /* SafeClsCluster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SafeClsCluster.podspec; path = ../SafeClsCluster.podspec; sourceTree = "<group>"; };
+		29B01707DD938DEBC96FBEE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		51118F43B2F0E5FF12CBA244 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		52BBFA3D6AF1DC700328CE81 /* SafeClsCluster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SafeClsCluster.podspec; path = ../SafeClsCluster.podspec; sourceTree = "<group>"; };
 		574AD8D20C4FD836185DED36 /* Pods-SafeClsCluster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeClsCluster_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SafeClsCluster_Tests/Pods-SafeClsCluster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SafeClsCluster_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeClsCluster_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,6 @@
 				574AD8D20C4FD836185DED36 /* Pods-SafeClsCluster_Tests.debug.xcconfig */,
 				98FCBE775001C88C1A1F2D8E /* Pods-SafeClsCluster_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				229B9EC7F0DB78E72B7B1AB8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "肖乐";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K7MDP8Y272;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		229B9EC7F0DB78E72B7B1AB8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SafeClsCluster_Example/Pods-SafeClsCluster_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SafeClsCluster/SafeClsCluster.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SafeClsCluster.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SafeClsCluster_Example/Pods-SafeClsCluster_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		85541AD86CA3CBC067F8FE16 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +478,7 @@
 			baseConfigurationReference = 629F250A4B593F79EACBF5E2 /* Pods-SafeClsCluster_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7MDP8Y272;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafeClsCluster/SafeClsCluster-Prefix.pch";
 				INFOPLIST_FILE = "SafeClsCluster/SafeClsCluster-Info.plist";
@@ -510,6 +495,7 @@
 			baseConfigurationReference = 87C67393EA6F44CB7296A1F6 /* Pods-SafeClsCluster_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K7MDP8Y272;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SafeClsCluster/SafeClsCluster-Prefix.pch";
 				INFOPLIST_FILE = "SafeClsCluster/SafeClsCluster-Info.plist";
