@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		46BE55D0317857E10664687B /* Pods_SafeClsCluster_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 966BA1D419F6D4FBFA550BFC /* Pods_SafeClsCluster_Example.framework */; };
+		4B0669B027F849F800708E3B /* XLLArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669AF27F849F800708E3B /* XLLArrayTest.m */; };
+		4B0669B227F850CD00708E3B /* XLLMutableArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669B127F850CD00708E3B /* XLLMutableArrayTest.m */; };
+		4B0669B427FD30BE00708E3B /* XLLDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669B327FD30BE00708E3B /* XLLDictionaryTest.m */; };
+		4B0669B627FD371000708E3B /* XLLMutableDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669B527FD371000708E3B /* XLLMutableDictionaryTest.m */; };
+		4B0669B827FD3FF700708E3B /* XLLStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669B727FD3FF700708E3B /* XLLStringTest.m */; };
+		4B0669BA27FD429D00708E3B /* XLLMutableStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669B927FD429D00708E3B /* XLLMutableStringTest.m */; };
+		4B0669BC27FD438900708E3B /* XLLAttributedStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669BB27FD438900708E3B /* XLLAttributedStringTest.m */; };
+		4B0669BE27FD5F8300708E3B /* XLLMutableAttributedStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669BD27FD5F8300708E3B /* XLLMutableAttributedStringTest.m */; };
+		4B0669C027FD782600708E3B /* XLLSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669BF27FD782600708E3B /* XLLSetTest.m */; };
+		4B0669C227FD78E400708E3B /* XLLMutableSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B0669C127FD78E400708E3B /* XLLMutableSetTest.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,8 +48,18 @@
 
 /* Begin PBXFileReference section */
 		29B01707DD938DEBC96FBEE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4B0669AF27F849F800708E3B /* XLLArrayTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLArrayTest.m; sourceTree = "<group>"; };
+		4B0669B127F850CD00708E3B /* XLLMutableArrayTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLMutableArrayTest.m; sourceTree = "<group>"; };
+		4B0669B327FD30BE00708E3B /* XLLDictionaryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLDictionaryTest.m; sourceTree = "<group>"; };
+		4B0669B527FD371000708E3B /* XLLMutableDictionaryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLMutableDictionaryTest.m; sourceTree = "<group>"; };
+		4B0669B727FD3FF700708E3B /* XLLStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLStringTest.m; sourceTree = "<group>"; };
+		4B0669B927FD429D00708E3B /* XLLMutableStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLMutableStringTest.m; sourceTree = "<group>"; };
+		4B0669BB27FD438900708E3B /* XLLAttributedStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLAttributedStringTest.m; sourceTree = "<group>"; };
+		4B0669BD27FD5F8300708E3B /* XLLMutableAttributedStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLMutableAttributedStringTest.m; sourceTree = "<group>"; };
+		4B0669BF27FD782600708E3B /* XLLSetTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLSetTest.m; sourceTree = "<group>"; };
+		4B0669C127FD78E400708E3B /* XLLMutableSetTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLMutableSetTest.m; sourceTree = "<group>"; };
 		51118F43B2F0E5FF12CBA244 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		52BBFA3D6AF1DC700328CE81 /* SafeClsCluster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SafeClsCluster.podspec; path = ../SafeClsCluster.podspec; sourceTree = "<group>"; };
+		52BBFA3D6AF1DC700328CE81 /* SafeClsCluster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SafeClsCluster.podspec; path = ../SafeClsCluster.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		574AD8D20C4FD836185DED36 /* Pods-SafeClsCluster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeClsCluster_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SafeClsCluster_Tests/Pods-SafeClsCluster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SafeClsCluster_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeClsCluster_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -172,6 +192,16 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				4B0669AF27F849F800708E3B /* XLLArrayTest.m */,
+				4B0669B127F850CD00708E3B /* XLLMutableArrayTest.m */,
+				4B0669B327FD30BE00708E3B /* XLLDictionaryTest.m */,
+				4B0669B527FD371000708E3B /* XLLMutableDictionaryTest.m */,
+				4B0669B727FD3FF700708E3B /* XLLStringTest.m */,
+				4B0669B927FD429D00708E3B /* XLLMutableStringTest.m */,
+				4B0669BB27FD438900708E3B /* XLLAttributedStringTest.m */,
+				4B0669BD27FD5F8300708E3B /* XLLMutableAttributedStringTest.m */,
+				4B0669BF27FD782600708E3B /* XLLSetTest.m */,
+				4B0669C127FD78E400708E3B /* XLLMutableSetTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -358,7 +388,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B0669B427FD30BE00708E3B /* XLLDictionaryTest.m in Sources */,
+				4B0669BE27FD5F8300708E3B /* XLLMutableAttributedStringTest.m in Sources */,
+				4B0669B827FD3FF700708E3B /* XLLStringTest.m in Sources */,
+				4B0669B627FD371000708E3B /* XLLMutableDictionaryTest.m in Sources */,
+				4B0669BC27FD438900708E3B /* XLLAttributedStringTest.m in Sources */,
+				4B0669B027F849F800708E3B /* XLLArrayTest.m in Sources */,
+				4B0669C227FD78E400708E3B /* XLLMutableSetTest.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				4B0669B227F850CD00708E3B /* XLLMutableArrayTest.m in Sources */,
+				4B0669BA27FD429D00708E3B /* XLLMutableStringTest.m in Sources */,
+				4B0669C027FD782600708E3B /* XLLSetTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

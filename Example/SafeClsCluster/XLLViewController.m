@@ -22,6 +22,12 @@
     [[SafeClsCluster sharedInstance].switchManager openAllSafeSwitch];
     [[SafeClsCluster sharedInstance].exceptionManager setupExceptionDebugDealWay:ExceptionDebugDealWayLog];
     
+//    NSOrderedSet
+//    NSMutableOrderedSet
+//    NSHashTable
+//    NSMapTable
+    
+    
     // NSArray
 //    // __NSPlacehodlerArray中间对象
 //    NSArray *placehodlerArray = [NSArray alloc];

@@ -7,7 +7,7 @@ target 'SafeClsCluster_Example' do
 
   target 'SafeClsCluster_Tests' do
     inherit! :search_paths
-
+    pod 'SafeClsCluster', :path => '../'
     
   end
 end
